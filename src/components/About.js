@@ -4,6 +4,7 @@ import Links from "./Links";
 function About({ bio, links }) {
   return (
     <div id="about">
+      <a href="#home">home</a>
       <h2>About Me</h2>
       {bio && bio.length > 1 ? <p>{bio}</p> : null}
       <img src="https://i.imgur.com/mV8PQxj.gif" alt="I made this" />
